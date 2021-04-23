@@ -26,7 +26,7 @@
             >2rem</MyButton>
         </div>
         <div class="box">
-            <div class="title">font-weigth</div>
+            <div class="title">font-weight</div>
             <MyButton>default</MyButton>
             <MyButton
                 :font_weigth="'bold'"
@@ -121,7 +121,7 @@
 <script>
 import MyButton from "@/components/MyButton";
 export default {
-    name: 'Hmoe',
+    name: 'Home',
 
     components: {
         MyButton
@@ -143,7 +143,6 @@ export default {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: graid;
 }
 .wrap{
     width: 500px;
