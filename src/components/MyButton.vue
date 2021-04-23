@@ -21,7 +21,7 @@ export default {
             type: String,
             default: '',
         },
-        font_weigth: {
+        font_weight: {
             type: String,
             default: '',
         },
@@ -67,7 +67,7 @@ export default {
                 'border-width': this.border_size,
                 'background': this.fill_color,
                 'font-size': this.font_size,
-                'font-weight': this.font_weigth,
+                'font-weight': this.font_weight,
                 'color': this.font_color,
             };
         },
